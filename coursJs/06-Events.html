@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+    
+    <script>
+    <a id="lienDesactiver" href="https://www.sharemycode.fr/js111">https://www.sharemycode.fr/js111</a>
+
+//    5créer un lien qui ne redirige pas 
+const lienDesactive = document.getElementById("lienDesactive");
+  lienDesactive.addEventListener("click", (event) => {
+    event.preventDefault();
+    console.log("Lien désactivé.");
+  });
+ 
+    </script>
+</body>
+</html>
